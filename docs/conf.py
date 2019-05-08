@@ -18,6 +18,7 @@ from django.utils import timezone
 import django
 django.setup()
 
+latex_engine = 'pdflatex'
 
 def get_version():
     """Return package version from setup.cfg."""
